@@ -32,4 +32,28 @@ func main() {
 	fmt.Println(score2) // 0
 	fmt.Println(grade) // "" (empty)
 	fmt.Println(isPassed) // false
+
+	// multiple variable declaration
+	var num1, num2, num3 int = 1, 2, 3
+	fmt.Println(num1)
+	fmt.Println(num2)
+	fmt.Println(num3)
+
+	var name1, num4 = "Name1", 4
+	fmt.Println(name1)
+	fmt.Println(num4)
+
+	isTrue, name2 := true, "Name2"
+	fmt.Println(isTrue)
+	fmt.Println(name2)
+
+	//can declare variable in block
+	var (
+		city string = "City"
+		country string = "Country"
+		population int = 1000000
+	)
+	fmt.Println(city)
+	fmt.Println(country)
+	fmt.Println(population)
 }
