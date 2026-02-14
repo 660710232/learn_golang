@@ -11,4 +11,5 @@ func main() {
 	variable()
 	naming()
 	constant()
+	output()
 }
