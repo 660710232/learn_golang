@@ -1,10 +1,7 @@
 package main
 import ("fmt")
 
-// Go program like C++
-// function or method use func funcname()
-// main func is entry point
-func main() {
+func variable() {
 
 	// Decaring variables
 	// Syntax: var variable_name type = value
