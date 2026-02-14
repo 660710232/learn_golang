@@ -20,4 +20,10 @@ func output() {
 	// %T is used to print type
 	fmt.Printf("Value: %v, Type: %T\n", hello, hello) // Value: Hello, Type: string
 
+	// Format
+	// %d is used to print integer
+	// %f is used to print float
+	// %s is used to print string
+	// %t is used to print boolean
+	// it like printf in C++ or Java
 }
